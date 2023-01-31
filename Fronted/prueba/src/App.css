@@ -1,0 +1,18 @@
+.App {
+  text-align: center;
+}
+
+
+.Main{
+  background-color: rgb(223, 223, 223);
+  width: 50vw;
+  position: relative;
+  margin: auto;
+  border-radius: 0 0 18px 18px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+

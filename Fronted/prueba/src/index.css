@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(35, 38, 41);
+  font-family: 'Rubik', sans-serif;
+  font-size: 20px;
+}
+a{
+  text-decoration: none;
+  color: #fff;
+}

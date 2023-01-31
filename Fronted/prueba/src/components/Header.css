@@ -1,0 +1,18 @@
+.Header{
+    color: rgb(25, 28, 34);
+  } 
+  .header-logo{
+    background-color: rgb(164, 190, 214);
+    width: 50%;
+    margin: 16px auto;
+  }
+  h1{
+    font-size: 50px;
+    font-weight: 600;
+  }
+  .header-text{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

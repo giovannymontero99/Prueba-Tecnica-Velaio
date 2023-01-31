@@ -1,0 +1,16 @@
+.Login{
+    display: flex;
+    justify-content: center;
+    margin: 0px 25px 25px 25px;
+  }
+  .form-login{
+    background-color: rgb(51, 67, 77);
+    color: #fff;
+    padding: 18px;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid rgb(146, 154, 155);
+  }
+  .form-signup{
+    font-size: 1rem;
+  }

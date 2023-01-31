@@ -1,0 +1,26 @@
+const http = require("http");
+const app = require("../../app.js");
+
+/**
+ * Esta funcion valida un puerto y retorna un valor numerico;
+ */
+const validatePort = (value)=>{
+    const port = parseInt( value,10 );
+    if( isNaN(port) ) return value;
+    if( port >= 0 ) return port;
+}
+
+/**
+ * Asignamos el valor al puerto.
+ */
+const port = validatePort(process.env.PORT || 3030 );
+
+/**
+ * Creamos el servidor
+ */
+http.createServer(app);
+
+/**
+ * En esta parte se asigna Host la IP del equipo debido a que va a realizar peticiones con otro Localhost
+ */
+app.listen(port,'192.168.1.150');

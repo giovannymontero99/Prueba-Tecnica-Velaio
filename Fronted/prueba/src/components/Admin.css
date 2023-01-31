@@ -1,0 +1,39 @@
+.Main{
+    width: 90vw;
+}
+
+.admin-header{
+    background-color: rgb(114, 108, 121);
+    height: 40vh;
+}
+
+.target-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.target{
+    background-color: rgb(193, 212, 233);
+    width: 20rem;
+    border-radius: 12px;
+    font-size: 15px;
+    margin: 1rem;
+}
+
+.target:hover{
+    transform:scale(1.1);
+    transition-duration: 0.5s;
+}
+.target-title{
+    color: #000;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 15px;
+}
+.target-img{
+    width: 100%;
+}
+.target-description{
+    padding: 12px;
+}
