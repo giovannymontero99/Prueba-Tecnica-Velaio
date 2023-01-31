@@ -11,7 +11,7 @@ const Login = (props) => {
   const [ clave,setClave ] = useState(null);
   
   useEffect(()=>{
-    console.log(mail);
+    //console.log(mail);
   },[mail])
     
 

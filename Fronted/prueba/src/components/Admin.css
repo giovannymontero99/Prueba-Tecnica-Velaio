@@ -2,6 +2,24 @@
     width: 90vw;
 }
 
+.apiCount{
+    position: absolute;
+    top: 0;
+    background-color: #000;
+    display: flex;
+    overflow: hidden;
+    color: #fff;
+}
+.apiCount:hover{
+    cursor: pointer;
+}
+.apiCount-active{
+    height: 12rem;
+    width: 12rem;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
 .admin-header{
     background-color: rgb(114, 108, 121);
     height: 40vh;
